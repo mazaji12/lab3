@@ -90,7 +90,7 @@
             }
         .product{
             display: flex;
-            flex-wrap: column wrap;
+            flex-wrap: row wrap;
             justify-content: space-evenly;
             border-width: 2px;
             border-color: black;
