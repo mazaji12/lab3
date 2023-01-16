@@ -10,5 +10,7 @@
   
   .logo > img {
     width: 50px;
-  }
+  }  
+  .logo > img {flex-flow: column wrap;}
+  
   
