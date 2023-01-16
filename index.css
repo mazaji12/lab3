@@ -17,5 +17,18 @@
     align-items: center;
     justify-content: space-evenly;
     }
+nav{
+    text-align: left;
+    background-color:darkblue;
+    margin-left: 10px;
+    }
+    ul{
+        list-style: none;
+        }
+    .hamburguer{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        }
  
   
