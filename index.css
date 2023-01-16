@@ -11,8 +11,9 @@
   .logo > img {
     width: 50px;
   }  
+  header{display: flex;}
   .logo > img {flex-flow: column wrap;}
   .product{flex-flow: column wrap;}
-  
+  .footer{display:flex;}
   
   
