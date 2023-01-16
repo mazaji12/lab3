@@ -1,50 +1,106 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .logo > img {
-    width: 50px;
-  }  
-  
-  header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    }
-nav{
-    text-align: left;
-    background-color:darkblue;
-    margin-left: 10px;
-    }
-    ul{
-        list-style: none;
-        }
-    .hamburger{
-        display: flex;
-        justify-content: flex-end;
-        color: white;
-        }
-    .menu{
-        display: none;
-        
-        }
-    .product{
-        border: solid;
-        border-width: 2px;
-        border-color: black;
-        text-align: center;
-        }
-        .social{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            }
 
-   
+@media(min-width: 768px) and (max-width: 1024px){ 
+    body {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .logo > img {
+        width: 50px;
+      }  
+      
+      header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    nav{
+        text-align: left;
+        background-color:darkblue;
+        margin-left: 10px;
+        }
+        ul{
+            list-style: none;
+            }
+        .hamburger{
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+            }
+        .menu{
+            display: none;
+            
+            }
+        .product{
+            border: solid;
+            border-width: 2px;
+            border-color: black;
+            text-align: center;
+            }
+            .social{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                }
+}
+
+@media(min-width: 1025px){ 
+    body {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .logo > img {
+        width: 50px;
+      }  
+      
+      header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    nav{
+        text-align: left;
+        background-color:darkblue;
+        margin-left: 10px;
+        }
+        ul{
+            list-style: none;
+            }
+        .hamburger{
+            display: none;
+          
+            }
+        .menu{
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+            }
+        .product{
+            display: flex;
+            flex-wrap: column wrap;
+            justify-content: space-evenly;
+            border-width: 2px;
+            border-color: black;
+           
+            }
+            .social{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                }
+}
+
+
