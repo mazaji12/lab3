@@ -41,4 +41,10 @@ nav{
         border-color: black;
         text-align: center;
         }
+        .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            }
+
    
