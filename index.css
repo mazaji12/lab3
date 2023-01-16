@@ -11,6 +11,7 @@
   .logo > img {
     width: 50px;
   }  
+  
   header{
     display: flex;
     flex-direction: column;
@@ -29,6 +30,10 @@ nav{
         display: flex;
         justify-content: flex-end;
         color: white;
+        }
+    .menu{
+        display: none;
+        
         }
  
   
