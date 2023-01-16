@@ -86,7 +86,6 @@
         .menu{
             display: flex;
             justify-content: flex-end;
-            word-spacing: 30px;
             color: white;
             }
         .product{
